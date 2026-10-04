@@ -5,5 +5,5 @@ date: '2026-09-28'
 author:
   name: Petr Bureš
   company: TamTam Research s.r.o.
-perex: 'Tento dokument popisuje datový formát, používaný pro poskytování informací o aktuální obsazenosti městských parkovišť a parkovišť P+R: míry obsazenosti a stavu parkoviště (volno, téměř plno, plno). Formát nese jen proměnné údaje; popis parkovišť (název, poloha, kapacita, provozovatel) poskytuje statický formát cz-ndic_d2-city-parking-table, na jehož tabulku se zprávy odkazují. Formát vychází z publikace ParkingStatusPublication modelu DATEX II 3.7 a je lehkou podmnožinou profilu pro parkoviště nákladních vozidel (ITP).'
+perex: 'Tento dokument popisuje datový formát, používaný pro poskytování informací o aktuální obsazenosti městských parkovišť a parkovišť P+R: míry obsazenosti a stavu parkoviště (volno, téměř plno, plno). Formát nese jen proměnné údaje; popis parkovišť (název, poloha, kapacita, provozovatel) poskytuje statický formát x-format:cz-ndic_d2-city-parking-table-v1.0, na jehož tabulku se zprávy odkazují. Formát vychází z publikace prk:ParkingStatusPublication modelu DATEX II 3.7 a je lehkou podmnožinou profilu pro parkoviště nákladních vozidel (ITP).'
 keywords: DATEX II, NDIC, ParkingStatusPublication

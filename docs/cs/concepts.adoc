@@ -1,7 +1,7 @@
 == Koncepty
 
 Formát poskytuje aktuální obsazenost městských parkovišť a parkovišť P+R. Popis parkovišť (název,
-poloha, kapacita, provozovatel) obsahuje samostatný statický formát `cz-ndic_d2-city-parking-table`;
+poloha, kapacita, provozovatel) obsahuje samostatný statický formát `x-format:cz-ndic_d2-city-parking-table-v1.0`;
 tento formát nese jen proměnné údaje a na tabulku parkovišť odkazuje.
 
 Formát vychází z DATEX II publikace
@@ -51,7 +51,7 @@ include::{samplesdir}/pr-status.xml[tag=header,indent=2]
 === Odkaz na tabulky parkovišť
 
 Publikace odkazuje elementy `parkingTableReference` na tabulky parkovišť ve statickém formátu
-`cz-ndic_d2-city-parking-table` (`@targetClass` = `prk:ParkingTable`, identifikátor a verze tabulky) –
+`x-format:cz-ndic_d2-city-parking-table-v1.0` (`@targetClass` = `prk:ParkingTable`, identifikátor a verze tabulky) –
 na každou tabulku, jejíž parkoviště publikace obsahuje:
 
 * `CzechParkAndRideTable` – parkoviště P+R,
@@ -109,4 +109,4 @@ daného parkoviště. `publicationTime` se mění s každým vygenerováním pub
 == Popisování poloh
 
 Formát polohu neuvádí; parkoviště identifikuje odkazem do tabulky parkovišť, kde je popsána jeho poloha
-(viz formát `cz-ndic_d2-city-parking-table`).
+(viz formát `x-format:cz-ndic_d2-city-parking-table-v1.0`).
