@@ -72,7 +72,7 @@ Stav každého parkoviště je jeden element `parkingStatusInformation` typu `pr
   `fac:FacilityObject`).
 * `lastUpdated` – čas poslední aktualizace stavu parkoviště (s časovou zónou).
 * `occupancy/occupancy` – obsazenost v procentech kapacity (0–100). Doplňkově lze uvést počet volných
-  míst (`numberOfVacantSpaces`), počet vozidel (`numberOfVehicles`) a trend (`occupancyTrend`).
+  parkovacích stání (`numberOfVacantSpaces`), počet vozidel (`numberOfVehicles`) a trend (`occupancyTrend`).
 * `status` – souhrnný stav parkoviště odvozený z obsazenosti podle prahů profilu ITP:
 
 [cols="1,2",options="header"]
@@ -85,13 +85,13 @@ Stav každého parkoviště je jeden element `parkingStatusInformation` typu `pr
 
 * Nepovinně:
 ** `openingStatus` – stav otevření,
-** `parkingFault` – porucha zařízení (např. nefunkční sčítání),
+** `parkingFault` – porucha parkoviště (např. nefunkční sčítání),
 ** `statusDescription` – volný popis stavu.
 
 Hodnoty přeplnění z profilu ITP (`overcrowding` a další) se u městských parkovišť nepoužívají.
 
 Obsazenost se uvádí přímo u parkoviště, protože parkoviště P+R slouží jednomu typu vozidel. Skupiny
-míst podle typů vozidel (jako v profilu ITP) se nepoužívají.
+parkovacích stání podle typů vozidel (jako v profilu ITP) se nepoužívají.
 
 .Stav parkoviště P+R Zličín (vzorek `pr-status.xml`)
 [source,xml]

@@ -20,6 +20,6 @@ Tabulky::
 
 Stav::
 * Každé parkoviště je odkazem na jeho GUID v tabulce.
-* Data uvádějí obsazenost v procentech a z ní odvozený stav; počet volných míst se zatím neuvádí.
+* Data uvádějí obsazenost v procentech a z ní odvozený stav; počet volných parkovacích stání se zatím neuvádí.
 * Např. P+R Zličín (`b33ca7aa-…`) je obsazeno ze 100 %, stav je tedy `full`; stav byl aktualizován
   1.{nbsp}10.{nbsp}2026 v 16:29:56.

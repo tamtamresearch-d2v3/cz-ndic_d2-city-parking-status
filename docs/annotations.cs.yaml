@@ -30,7 +30,7 @@ Occupancy:
   occupancy:
     ndic: Obsazenost v procentech kapacity, celé číslo 0–100.
   numberOfVacantSpaces:
-    ndic: Uvádí se jen přesný počet volných míst; údaj „méně než N“ se neuvádí.
+    ndic: Uvádí se jen přesný počet volných parkovacích stání; údaj „méně než N“ se neuvádí.
 ParkingStatusPublication:
   parkingTableReference:
     card: 1..n
